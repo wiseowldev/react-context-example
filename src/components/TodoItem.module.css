@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  gap: 8px;
+  height: 2em;
+  align-items: center;
+}
+
+.Container > .Completed {
+  text-decoration: line-through;
+}
